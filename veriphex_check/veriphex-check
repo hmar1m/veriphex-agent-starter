@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# The veriphex-check command. Put this folder on PATH, or run it by its path.
+set -euo pipefail
+exec python3 "$(cd "$(dirname "$0")" && pwd)/veriphex_check.py" "$@"

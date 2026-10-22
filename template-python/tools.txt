@@ -1,0 +1,3 @@
+# The tools this agent uses, one per line, exactly as Veriphex names them on the form.
+# Declare every tool the agent calls: Veriphex refuses a call to any other.
+lookup_invoice
